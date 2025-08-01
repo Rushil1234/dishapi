@@ -1,0 +1,18 @@
+# Dish Network NOC Supervisor Agent
+# This agent coordinates between the detection and incident management agents.
+
+spec_version: "v1"
+name: "dish_noc_supervisor_agent"
+description: "Coordinates the full incident response for network outages."
+version: "1.0.0"
+
+# This agent orchestrates other agents, it does not call tools directly
+agents:
+  - "dish_outage_detection_agent"
+  - "dish_incident_management_agent"
+
+# Example phrases to trigger this agent
+phrases:
+  - "Detect any network outages and handle the incident response"
+  - "Monitor the network, detect outages, and handle the complete incident response"
+  - "Run the full network outage detection and response process"

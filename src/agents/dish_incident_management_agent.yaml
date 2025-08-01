@@ -1,0 +1,18 @@
+# Dish Network Incident Management Agent
+# This agent is responsible for creating incident tickets and notifying stakeholders.
+
+spec_version: "v1"
+name: "dish_incident_management_agent"
+description: "Creates incident tickets and sends notifications to stakeholders."
+version: "1.0.0"
+
+# The tools this agent has access to
+tools:
+  - "create_incident_ticket"
+  - "send_slack_notification"
+
+# Example phrases to trigger this agent
+phrases:
+  - "Create a ticket for the current outage and notify stakeholders"
+  - "Open a ServiceNow ticket for the network issue and alert the NOC team"
+  - "Create an incident ticket for the current outages and send notifications"

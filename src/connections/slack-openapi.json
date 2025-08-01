@@ -1,0 +1,23 @@
+{
+  "spec_version": "v1",
+  "app_id": "slack",
+  "kind": "connection",
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Slack API",
+    "version": "1.0.0",
+    "description": "Connection for the Slack Mock API"
+  },
+  "environments": [
+    {
+      "name": "draft",
+      "servers": [
+        {
+          "url": "https://slack.com/api",
+          "description": "Slack Production"
+        }
+      ]
+    }
+  ],
+  "paths": {}
+}
