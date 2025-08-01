@@ -1,9 +1,0 @@
-{
-    "apikey": "7NYf0p2AnmY6Uo-6aA6i00gdrcMrCpl2pIXiREQghLra",
-    "iam_apikey_description": "Auto-generated for key crn:v1:bluemix:public:watsonx-orchestrate:us-south:a/c709b28cadb74850a789f021a7dc6a40:1acdc0de-3eb2-44cb-aa7a-332f591fb115:resource-key:832d711d-e55e-46dc-b9a2-2c58ab76f0b5",
-    "iam_apikey_id": "ApiKey-515a2d60-27b0-4647-b59b-ecbb09aa55e7",
-    "iam_apikey_name": "Service-credentials-2",
-    "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
-    "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/c709b28cadb74850a789f021a7dc6a40::serviceid:ServiceId-0f8615d2-a4e4-4aef-a277-68a9b1569295",
-    "url": "https://api.us-south.watson-orchestrate.cloud.ibm.com/instances/1acdc0de-3eb2-44cb-aa7a-332f591fb115"
-  }
