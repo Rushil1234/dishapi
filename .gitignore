@@ -42,9 +42,6 @@ ENV/
 # Local development
 .env.local
 
-# Streamlit
-.streamlit/
-
 # OS generated files
 .DS_Store
 .DS_Store?
